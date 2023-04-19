@@ -3,14 +3,14 @@
     "strict": true,
     "declaration": true,
     "declarationMap": true,
-    "target": "es2020",
+    "target": "esnext",
     "lib": [
       "es2020",
       "dom"
     ],
     "module": "node16",
-    "moduleResolution": "node16",
-    "outDir": ".",
+    "moduleResolution": "node",
+    "outDir": "dist",
     "noImplicitAny": true,
     "removeComments": true,
     "preserveConstEnums": true,

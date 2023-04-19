@@ -8,10 +8,7 @@
     "index.d.ts.map",
     "index.ts"
   ],
-  "type": "module",
-  "main": "index.js",
-  "module": "index.js",
-  "types": "index.d.ts",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "lint": "prettier --check index.ts",
